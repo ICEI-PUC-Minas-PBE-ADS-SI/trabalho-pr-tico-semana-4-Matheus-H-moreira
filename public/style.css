@@ -1,3 +1,77 @@
-body {
-    background-color: aquamarine;
+/* Início - Configuração geral */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+/* Fim - Configuração geral */
+
+/* Início - Configuração do header */
+.logo h1 {
+    color: wheat;
+    letter-spacing: 4px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.pesquisa input {
+    width: 300px;
+}
+
+.opcoes {
+    width: 100%;
+    background-color: wheat;
+    border-radius: 10px;
+}
+/* Fim - Configuração do header */
+
+/* Início - Configuração do corpo do site */
+main h1 {
+    color: rgb(107, 44, 44);
+    margin-left: 5px;
+}
+
+main img {
+    width: 150px;
+    max-width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.resumo {
+    text-align: justify;
+    cursor: pointer;
+}
+
+section ul {
+    background-color: wheat;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+section li {
+    text-align: right;
+    margin-bottom: 30px;
+}
+/* Fim - Configuração do corpo do site */
+
+/* Início - Configuração do footer */
+footer p{
+    margin-bottom: 10px;
+}
+
+footer img{
+    width: 40px;
+}
+/* Fim - Configuração do footer */
