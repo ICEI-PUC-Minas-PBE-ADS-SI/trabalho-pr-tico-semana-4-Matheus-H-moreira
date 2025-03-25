@@ -8,15 +8,15 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Matheus Henrique Moreira 
+- Matricula: 878528
+- Proposta de projeto escolhida: Diretório de Receitas
+- Breve descrição sobre seu projeto: Para esse projeto decidi fazer uma home-page simples e fácil de entender, para que pessoas de todas as idades possam compreender seu funcionamento, mas mesmo sendo simples, consiga abranger todos os componentes e funcionalidades esperadas na proposta do projeto.
 
 ## Print da versão responsiva com CSS puro
 
-<<  COLOQUE A IMAGEM AQUI >>
+<<  ![alt text](CSSpuro.png) >>
 
 ## Print da versão responsiva com Bootstrap
 
-<<  COLOQUE A IMAGEM AQUI >>
+<<  ![alt text](Bootstrap.png) >>
