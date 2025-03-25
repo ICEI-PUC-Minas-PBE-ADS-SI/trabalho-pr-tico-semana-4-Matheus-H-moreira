@@ -92,35 +92,12 @@ header {
     margin: 20px 0px;
 }
 
-.coluna1 {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 30px;
-}
-
-main h1 {
+.grid h1 {
     color: rgb(107, 44, 44);
-    margin-left: 5px;
-}
- 
-main div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    margin-left: 10px;
 }
 
-main img {
-    width: 150px;
-    max-width: 100%;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.resumo {
-    text-align: justify;
-    cursor: pointer;
+.col2 {
+    margin-top: 50px;
 }
 
 section ul {
@@ -129,11 +106,11 @@ section ul {
     border-radius: 10px;
 }
 
-section li {
+section p {
+    font-size:x-large;
     text-align: right;
     margin-bottom: 30px;
 }
-
 /* Fim - Configuração do corpo do site */
 
 /* Início - Configuração do footer */
@@ -188,7 +165,7 @@ footer img{
     }
 }
 
-@media screen and (max-width: 1850px) {
+@media screen and (max-width: 1885px) {
     .opcoes ul {
         display: flex;
         margin: 2px 0px;
@@ -263,7 +240,7 @@ footer img{
     }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 853px) {
     .opcoes ul {
         display: flex;
         margin: 2px 0px;
@@ -291,7 +268,7 @@ footer img{
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
     /*Início - Menu interativo*/
     .opcoes {
         display: flex;
@@ -308,12 +285,17 @@ footer img{
         transition: height 0.3s;
     }
 
+    .card {
+        position: relative;
+        z-index: -1;
+    }
+
     .opcoes ul {
         color: white;
         display: flex;
         flex-direction: column;
         width: 100%;
-        gap: 40px;
+        gap: 30px;
     }
     
     .opcoes li a {
